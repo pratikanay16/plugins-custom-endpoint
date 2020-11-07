@@ -1,0 +1,19 @@
+{
+	"name": "custom endpoint",
+	"type": "plugins",
+	"description": "Custom url like yoursite.com/users/ which work without wordpress page, category, post create",
+	"keywords": [
+		"custom endpoint",
+		"custom url",
+		"customurl"
+	],
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Pratik Patel",
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	}
+}

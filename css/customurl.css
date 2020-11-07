@@ -1,0 +1,35 @@
+.customurl_table {
+    width: calc(100% - 60px);
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+.head_table {
+    font-size: 20px;
+    display:block;
+    width: calc(100% - 60px);
+    padding: 30px 0 0 30px;
+    margin: 0 auto;
+}
+.table.dataTable, table.dataTable th, table.dataTable td {
+    font-size: 14px;
+}
+.dataTables_wrapper .dataTables_filter input {
+    width: auto;
+    display: inline;
+}
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label,
+.dataTables_wrapper .dataTables_info label, 
+.dataTables_wrapper .dataTables_processing label,
+.dataTables_wrapper .dataTables_paginate a,
+.dataTables_wrapper .dataTables_info{
+    font-size: 14px;
+    color:#333;
+}
+.modal-dialog {
+    font-size: 16px;
+}
+.modal-title {
+    font-size: 20px;
+}
