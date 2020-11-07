@@ -52,7 +52,7 @@ function cu_rewrite_catch_page() {
 		wp_enqueue_style( 'Datatable-css', 'https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css', '', '1.10.22' );
 		wp_enqueue_style( 'Datatable-css-1', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', '', '3.3.7' );
 		wp_enqueue_style( 'Datatable-css-3', 'https://cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap.min.css', '', '2.2.6' );
-		wp_enqueue_style( 'customurl-css', PLUGIN_URL . '/custom-endpoint/css/customurl.css', '', '1.0' );
+		wp_enqueue_style( 'customurl-css', PLUGIN_URL . '/css/customurl.css', '', '1.0' );
 
 		// Bootstrap,datatable js.
 		wp_enqueue_script( 'Datatable-jquery', 'https://code.jquery.com/jquery-3.5.1.js', '', '3.5.1', true );
@@ -61,7 +61,7 @@ function cu_rewrite_catch_page() {
 		wp_enqueue_script( 'customurl-bootstrap-1', 'https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js', '', '2.2.6', true );
 		wp_enqueue_script( 'customurl-bootstrap-1', 'https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap.min.js', '', '2.2.6', true );
 		wp_enqueue_script( 'Datatable-js', 'https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js', '', '1.10.22', true );
-		wp_enqueue_script( 'customurl-userdata-js', PLUGIN_URL . '/custom-endpoint/js/customurl_userdata.js', '', '1.0', true );
+		wp_enqueue_script( 'customurl-userdata-js', PLUGIN_URL . '/js/customurl_userdata.js', '', '1.0', true );
 
 		// Pass ajax_url to script.js.
 		wp_localize_script(
