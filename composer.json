@@ -1,6 +1,6 @@
 {
-	"name": "custom endpoint",
-	"type": "plugins",
+	"name": "pratikanay16/plugin",
+	"type": "wordpress-plugin",
 	"description": "Custom url like yoursite.com/users/ which work without wordpress page, category, post create",
 	"keywords": [
 		"custom endpoint",
@@ -14,6 +14,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"composer/installers": "v1.6.*"
 	}
 }
