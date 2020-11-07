@@ -15,9 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 define( 'PLUGIN_DIR', plugin_dir_path( __FILE__ ) ); // plugin directory path.
-define( 'PLUGIN_URL', plugins_url() ); // plugin full url.
+define( 'PLUGIN_URL', plugin_dir_url( __FILE__ ) ); // plugin full url.
 define( 'API_CALL_URL', 'https://jsonplaceholder.typicode.com/' ); // api call url.
-
 register_activation_hook( __FILE__, 'cu_rewrite_activation' );
 
 /**
